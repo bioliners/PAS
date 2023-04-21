@@ -1,0 +1,16 @@
+1) Get proteomes with PAS domain protein counts from InterPro using its API: proteomeDownloader.py
+
+2) Assign taxonomy from GTDB and NCBI based on tax IDs: getTaxonomyFromNcbIByTaxId.py
+
+3) Get protein counts and gene counts (to deal with isoforms later): getProteinCountsFromUniprot.py
+   
+4) Get Uniprot protein ids of PAS proteins (longest isoforms in case of eukaryotes) and their lengths for each previously identified proteome: getProteinsFromUniprot.py
+
+5) Get and process protein isoforms: getAndProcessIsoforms.py
+
+6) Get domain compositions and counts of PAS domains: getDomainsAndCountsFromUniprot.py
+   
+7) Normalize PAS protein counts by the total gene counts: normalizeProteinCounts.py
+
+8) Get averages for each taxonomic level: getAverages.py
+
