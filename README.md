@@ -2,7 +2,7 @@
 
 Produced data and code used in the PAS project
 
-"PAS_clusters" contains sequences (in fasta format), alphafold structures, and sequence logos for clusters, and a summary of all clusters.
+"PAS_clusters" contains sequences (in fasta format), alphafold structures, sequence logos, and distances for clusters, as well as a summary of all clusters.
 
 "PAS_phylogenetic_trees" contains multiple sequence alignments and phylogenetic trees used for tree building. 
 
